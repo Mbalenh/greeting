@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: Quicksand,sans-serif;
+}
+body{
+    background-image: url('../greeting/images/pexels-hasan-albari-1229861.jpg');
+    background-size: absolute;
+    color: black;
+    
+}
+.greets{
+    
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+.greets h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+
+}
+p{ 
+    font-size: 20px;
+    margin: 15px 0;
+}
+/* input{
+    font-size: 15px ;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    display: flex;
+
+
+} */
+button{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px  15px;
+    width: 30%;
+    border-radius: 5px;
+    border: 0;
+    background-color:white;
+    border: black;
+
+
+}
+button:hover{
+    color: blueviolet;
+
+}
+.greetingName{
+    display: flex;
+}
+.greetingName input{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px  15px;
+    margin-right: 5px;
+    width: 50%;
+    border-radius: 5px;
+    border: 0;
+    background-color:white;
+    border: black;
+}
+
+/* .greetingName button{
+    font-size: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px  15px;
+    width: 20%;
+    border-radius: 5px;
+    border: 0;
+    background-color:white;
+    border: black;
+}
+.greetingName button:hover{
+    color: blueviolet;
+} */

@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style .css">
+</head>
+<body>
+    <div class="greets">
+        <h1>Greeting</h1>
+        <form class="greeting">
+            <p>Full Name</p>
+            <div class="greetingName">
+            <input class="name" type="text" name="fullname" placeholder="Full Name">
+            <button class="button-primary clear" type="button" name="button">clear</button>
+            </div>
+            <p><span class ="count"></span></p>
+            <div class="Language">
+                <input type="radio" name="language" class="radio radioEnglish" value="english">English 
+                <input type="radio" name="language" class="radio radioIsiZulu" value="isizulu"> IsiZulu
+                <input type="radio" name="language" class="radio radioIsiXhosa" value="isixhosa"> IsiXhosa
+                <div class="buttonGreeting">
+                    <button class="button-primary greetMeAdd" type="button" name="button">Greet Me</button>
+                </div>
+                </div>
+                <p><span class ="display"></span></p>
+        </form>
+    </div>
+    <script src="js/greet.js"></script>
+    <script src="js/greet.dom.js"></script>
+</body>
+</html>
