@@ -21,8 +21,12 @@ describe("The Greeting Function", function(){
         let greetingDom = Greeting([]);
         assert.equal(greetingDom.greet('','english'), 'please enter username')
     })
-    it ('should return an error message,if the name is not entered', function() {
+    it ('should return an error message,if the name is not entered and language is not selected', function() {
         let greetingDom = Greeting([]);
         assert.equal(greetingDom.greet('',''), 'please enter username')
+    })
+    it ('should return an error message "invalid usernamee",if the name contain number', function() {
+        let greetingDom = Greeting([]);
+        assert.equal(greetingDom.greet('khanya44',''), 'invalid username')
     })
 })
