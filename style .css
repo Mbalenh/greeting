@@ -76,9 +76,9 @@ button:hover{
     font-size: 10px;
     font-weight: bold;
     margin: 20px 0;
-    padding: 10px  15px;
+    padding: 10px  20px;
     margin-right: 5px;
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
     border: 0;
     background-color:white;
@@ -93,19 +93,15 @@ button:hover{
 
 .count{
     font-size: 50px;
+    margin-left: 4px;
+}
+.buttonGreeting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.clear{
     margin-left: 5px;
 }
-/* .greetingName button{
-    font-size: 10px;
-    font-weight: bold;
-    margin: 20px 0;
-    padding: 10px  15px;
-    width: 20%;
-    border-radius: 5px;
-    border: 0;
-    background-color:white;
-    border: black;
-}
-.greetingName button:hover{
-    color: blueviolet;
-} */

@@ -5,6 +5,7 @@ var nameArray =names||[];
 //   array.pop()
 // }
 // } 
+
 function addName(username, language){
   if(username === ""){
     return
@@ -18,9 +19,11 @@ function addName(username, language){
   if(/[0-9]/.test(username)){
    return
   }
+ 
     nameArray.push(username);
 
 }
+
 function greet(username, language){
     if(username === ""){
  return "please enter username";
