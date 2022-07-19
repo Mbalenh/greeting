@@ -1,10 +1,9 @@
 function Greeting(names){
 var nameArray =names||[];
-// function clearArrayAdd(array){
-// while(array.length){
-//   array.pop()
-// }
-// } 
+// setTimeout(function(){
+//   display.innerHTML =""
+  
+// }, 3000)
 
 function addName(username, language){
   if(username === ""){

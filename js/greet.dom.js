@@ -30,12 +30,19 @@ clearButton.addEventListener('click', ()=>{
     count.innerHTML= greetingDom.nameArray.length;
     
 })
+
+
+
 greetButton.addEventListener('click', ()=>{
  display.innerHTML= greetingDom.greet(username.value,language);
  greetingDom.addName(username.value,language);
  count.innerHTML= greetingDom.nameArray.length;
  localStorage.setItem("nameArray",JSON.stringify(greetingDom.nameArray));
  username.value='';
+ setTimeout(function(){
+    display.innerHTML =""
+    
+  }, 3000)
 
  
 })
