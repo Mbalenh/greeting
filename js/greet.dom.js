@@ -36,5 +36,6 @@ greetButton.addEventListener('click', ()=>{
  count.innerHTML= greetingDom.nameArray.length;
  localStorage.setItem("nameArray",JSON.stringify(greetingDom.nameArray));
  username.value='';
+
  
 })
